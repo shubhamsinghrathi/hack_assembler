@@ -52,7 +52,7 @@ compValues = {
     "D|A": "0010101",
     "A|D": "0010101",
     "M": "1110000",
-    "!M": "1110011",
+    "!M": "1110001",
     "-M": "1110011",
     "M+1": "1110111",
     "M-1": "1110010",
@@ -185,5 +185,5 @@ class Assembler:
         print(self.bitCommands)
         self.fileCreator()
 
-a = Assembler('Fill')
+a = Assembler('pong/Pong')
 a.preRun()
